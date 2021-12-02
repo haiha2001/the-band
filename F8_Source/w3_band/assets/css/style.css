@@ -24,6 +24,7 @@ html {
 */
 
 /* Cách khác bên cạnh overflow */
+/* Common */
 .clear {
   clear: both;
 }
@@ -32,7 +33,35 @@ html {
   color: #fff !important;
 }
 
+.text-center {
+  text-align: center; !important
+}
+
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.col {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-third {
+  width: 33.33333%;
+}
+
+
 /* Header */
+/* main */
+#main {
+
+}
 
 #header {
   height: 46px;
@@ -226,12 +255,6 @@ html {
   /* overflow: hidden; */
 }
 
-#content .member-item {
-  float: left;
-  text-align: center;
-  width: 33.33333%;
-}
-
 #content .member-name {
   font-size: 15px;
 }
@@ -284,15 +307,7 @@ html {
 
 .places-list {
   margin-top: 32px;
-  margin-left: -8px;
-  margin-right: -8px;
-  padding-bottom: 48px;
-}
-
-.place-item {
-  float: left;
-  width: 33.33333%;
-  padding: 0px 8px;
+  margin-bottom: 48px;
 }
 
 .place-img {
